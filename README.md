@@ -1,7 +1,5 @@
-# compose-ios
-Complete example for using Compose on Android and iOS and sharing UI between the two.
+# KMMComposeTemplate
+This is a template for creating Android/iOS Jetpack Compose apps.
+# Build
+Set gradle JDK version to 17. To build the (unmaintained) UIKit version run `./gradlew iosCompose:iosDeployIPhone13ProDebug`. This may be neccesary to do first in order to build the Compose version. To build the compose version, open the project in XCode on a Mac (I am using an M1 Air) and press the "Play" button.
 
-Guide: https://medium.com/better-programming/jetpack-compose-for-ios-getting-started-step-by-step-e7be6f52edd4
-
-Pure Kotlin and Compose approach, without having project for iOS app, is inside **iosCompose**.
-Rest of the project shows sharing UI between Android and iOS.
